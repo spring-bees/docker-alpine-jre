@@ -6,7 +6,7 @@ MAINTAINER coolbeevip <coolbeevip@gmail.com>
 
 ENV JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk \
     PATH=$PATH:/usr/lib/jvm/java-1.8-openjdk/jre/bin:/usr/lib/jvm/java-1.8-openjdk/bin \
-    JAVA_ALPINE_VERSION=8.212.04-r0
+    JAVA_ALPINE_VERSION=8.242.08-r2
 
 RUN set -x && \
     apk update && \
